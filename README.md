@@ -24,6 +24,7 @@ Use Closing Operation
 
  
 ## Program:
+```
 
 # Import the necessary packages
 import cv2
@@ -53,6 +54,7 @@ img3=cv2.morphologyEx(img1,cv2.MORPH_CLOSE,kernel1)
 cv2.imshow("Closing",img3)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+```
 ## Output:
 
 ### Display the input Image
